@@ -55,3 +55,48 @@
 .btn:focus {
   outline: 2px #ffe593;
 }
+
+
+.button {
+  text-decoration: none;
+  text-align:center;
+  display: inline-block;
+  padding: 0.5em 1em;
+  position: relative;
+  margin: 1em;
+  min-width: 10em;
+}
+.pill {
+  border-radius: 2em;
+}
+.button:hover {
+  background-color: #fff;
+  color: #ff8000;
+}
+
+.border {
+  border: 1px solid #000000;
+}
+/* reinforce radius subpixel rendering by doubling up*/
+.double-border:before {
+  content: "";
+  position: absolute;
+  border-radius: 2em;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  border: 1px solid #fff;
+  z-index: -1;
+}
+
+.box-shadow {
+  box-shadow: 0 0 0 1px #fff;
+}
+.double-box-shadow {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 1px #fff;
+}
+
+.small {
+  font-size: 12px;
+}
