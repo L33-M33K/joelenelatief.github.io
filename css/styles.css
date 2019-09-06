@@ -1,0 +1,273 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  /* font-family: 'Noto Sans HK', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+h2 {
+  /* font-family: 'Noto Sans HK', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  background-color: #f5d03d;
+}
+
+h4 {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #f5d03d;
+}
+
+
+p, a, li {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+.navigation-bar {
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05);
+  text-align: center;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+}
+/* .background-image {
+  z-index: -1
+} */
+/*
+.container-1 {
+  position: -80vh;
+  background: url(img/4x/b)
+} */
+/* .home-background {
+  background: url(/img/SVG/blobs.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+} */
+
+/* .container-1 {
+  background: url(img/4x/blobs.png)
+} */
+
+.navigation-bar li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10vh;
+  color: #rgba(255, 0, 0, 0.5);
+}
+
+.header-links {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+}
+
+.header-links li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10vh;
+  color: #rgba(255, 0, 0, 0.5);
+}
+
+.header-image {
+  position: absolute;
+  left: -50px;
+  height: 70vh;
+  max-width: 1000px;
+}
+
+.title-home {
+  color: white;
+  margin-top: 15vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+h1, h2 {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	line-height: 3rem;
+}
+
+h1 {
+	letter-spacing: 0.3rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 400;
+	letter-spacing: 0.2rem;
+	font-size: 2.6rem;
+}
+
+h2.after:after {
+	content: "";
+	display: inline-block;
+	height: 3px;
+	color: black;
+	width: 30px;
+	background-color: black;
+	position: relative;
+	bottom: 7px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* h1 {
+  font-family: Avenir Next;
+  font-weight: 400;
+  margin: 5rem;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.magical--underline {
+  cursor: pointer;
+  background-image: linear-gradient(45deg, #225e9e 0%, #712c69 100%);
+  background-repeat: no-repeat;
+  background-size: 100% .1em;
+  background-position: 0 95%;
+  transition: background-size .25s linear, color .2s linear;
+  text-decoration: none;
+  padding: 2px;
+}
+.magical--underline:hover {
+  color: #fff;
+  background-size: 100% 95%;
+}
+
+.top-section {
+  padding-bottom:10vh;
+}
+
+.main-header {
+  margin: 0 auto;
+}
+
+.email-me {
+  padding-top = 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.work-image {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  background-image: linear-gradient(45deg, #225e9e 0%, #712c69 100%);
+  background-repeat: no-repeat;
+  background-size: 100% .1em;
+  background-position: 0 95%;
+  transition: background-size .25s linear, color .2s linear;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.cake-logo {
+  height:10vh;
+}
+
+.work-image::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+
+.work h4{
+  position: absolute;
+  z-index: 1;
+  top: -30px;
+  left: -15px;
+}
+
+.card-row {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+footer {
+  background-color: #75e3dd;
+}
+
+.social-icon {
+   height: 40px;
+   margin: 10px;
+}
+
+.social-icons-container {
+  text-align: center;
+}
+
+.project-container {
+  padding-top:10vh;
+}
+.bottom-nav {
+  padding-top:10vh;
+  padding-bottom:10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.active {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color:
+}
+.inactive {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+.card-container-home {
+  /* padding-top:5vh; */
+  width: 40vh;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: flex-start;
+}

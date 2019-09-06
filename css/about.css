@@ -1,0 +1,7 @@
+.profile-photo{
+  clip-path: circle(50% at 50% 50%);
+}
+
+.pad-top {
+  padding-top: 10vh;
+}

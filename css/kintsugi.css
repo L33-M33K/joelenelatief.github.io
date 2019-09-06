@@ -1,0 +1,169 @@
+
+.quote {
+  font-size: 20px;
+  margin: 0 auto;
+}
+/* .titlee-container {
+  text-align: center;
+} */
+.title-container {
+  text-align: center;
+  width=100%;
+  display: flex;
+  justify-content: center;
+  margin-top:0 auto;
+}
+
+.tool-icon {
+  height: 30px;
+}
+
+.xcode {
+  padding-left: 10px;
+}
+
+.tools-icons-container {
+  padding-right:20px;
+}
+
+.cards-titles {
+  background-color: #ffdbd4;
+  min-height: 50vh;
+  align-items: center;
+}
+
+.title {
+  margin-top: 15vh;
+}
+
+.overview {
+  padding-top:10vh;
+}
+
+.cards {
+  margin: 0 auto;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cards-container {
+  margin:0 auto;
+  width: 300px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-box {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  margin-bottom: 10vh;
+
+
+}
+
+.card-container {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-contents {
+  border-radius: 20px;
+  margin: 20px;
+  align-items: center;
+}
+
+.process-title {
+  text-align: left;
+}
+
+.key-insights {
+  padding-top: 10vh;
+}
+
+.screenshot {
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05);
+}
+.screenshot-row-inspiration {
+  padding-top:10vh;
+}
+.screenshot-row {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+
+}
+
+.popup {
+  margin: 0 auto;
+}
+
+.popup-container {
+  padding-bottom: 5vh;
+}
+
+.popup-image {
+  width:110%;
+}
+
+.blog {
+  height:50vh;
+}
+
+.description{
+  padding-top: 5vh;
+}
+
+.step-section {
+  padding-top:5vh;
+  padding-bottom: 5vh;
+}
+
+.audio {
+  padding-top: 7vh;
+}
+
+.left-side {
+  background-color: #ffdbd4;
+}
+
+.right-side {
+  background-color: #ffdbd4;
+}
+
+.impact {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.underline {
+  background-image: linear-gradient(45deg, #ffdbd4 0%, #ffdbd4 100%);
+  background-repeat: no-repeat;
+  background-size: 75% 1em;
+  height:2px;
+}
+
+.app-store {
+  background-color: #ffdbd4;
+  height: 70%;
+}
+
+.popups {
+  background-color: #dacfff;
+}
+
+.problem-statement {
+  padding-top: 10vh;
+}
+
+.underline-dv-title {
+  background-image: linear-gradient(45deg, #6267E3 0%, #6267E3 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 3em;
+  height:5px;
+}

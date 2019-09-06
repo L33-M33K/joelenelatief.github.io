@@ -1,0 +1,37 @@
+.screenshot {
+  border-radius: 10px;
+  margin: 0 auto;
+  /* box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.05); */
+}
+
+.cards-titles-dv {
+  min-height: 50vh;
+  align-items: center;
+  background-color: #6267E3;
+}
+
+.title-dv {
+  color: white;
+  margin-top: 15vh;
+}
+
+.underline-dv {
+  background-image: linear-gradient(45deg, #6267E3 0%, #6267E3 100%);
+  background-repeat: no-repeat;
+  background-size: 75% 1em;
+  height:2px;
+}
+.underline-dv-title {
+  background-image: linear-gradient(45deg, #6267E3 0%, #6267E3 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 3em;
+  height:5px;
+}
+
+.user-research {
+  padding-top: 10vh;
+}
+
+.cake {
+  height:200px;
+}
